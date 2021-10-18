@@ -1,0 +1,112 @@
+
+img {
+    width: 100%;
+    
+   
+}
+.container {
+   width: 70vw;
+   background-color: white;
+   
+}
+.container1 {
+    
+    background-color: white;
+   
+}
+body {
+    background-color: rgb(247, 242, 242);
+}
+
+.component-1 {
+    background-image: url(../images/bag.png);
+    width: 100%;
+       
+}
+.component-2 {
+    background-image: url(../images/watch.png);
+    width: 100%;
+    
+   
+    
+}
+.component-3 {
+    background-image: url(../images/shoes.png);
+    width: 100%;
+   
+    
+}
+
+.components {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    grid-template-areas: "b w s";
+}
+.component-1 {
+    grid-area: b;
+}
+.component-2 {
+    grid-area: w;
+}
+.component-3 {
+    grid-area: s;
+}
+.container1 {
+    width: 70vw;
+    
+    
+}
+
+#gridbox {
+    display: grid;   
+    gap: 15px;
+    grid-template-columns: 1rf 1rf 1rf 1rf;
+    grid-template-rows: 1rf 1rf ;
+    grid-template-areas: "f g h i"
+                          "j k l m";
+
+}
+.pic1 {
+    grid-area: f;
+}
+.pic2 {
+    grid-area: g;
+}
+.pic3 {
+    grid-area: h;
+}
+.pic4 {
+    grid-area: i;
+
+}
+.pic5 {
+    grid-area: j;
+}
+.pic6 {
+    grid-area: k;
+}
+.pic7 {
+    grid-area: l;
+}
+.pic8 {
+    grid-area: m;
+}
+.gridbox1 {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1rf 1rf 1rf 1rf;
+    grid-template-areas: "w x y z";
+}
+.info {
+    grid-area: w;
+}
+.service {
+    grid-area: x;
+}
+.extras {
+    grid-area: y;
+}
+.account {
+    grid-area: z;
+}
